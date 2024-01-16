@@ -5,7 +5,7 @@ It is the greatest markdown test of all time.
 
 #### My Career
 
-I am not a very smart developer. Would you trust a dev who puts a password in an username field?!
+I am not a very smart developer.<br> Would you trust a dev who puts a password in an username field?!
 
 #### Student
 
