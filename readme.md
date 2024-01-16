@@ -8,6 +8,6 @@ In this rep, you can find
 - Questionable source code
 - Coffee overdose
 
-_I am using this thing solely to learn new stuff._
+_I am using this thing solely to learn new stuff._ <br>
 You will **not** find anything important here.
 
