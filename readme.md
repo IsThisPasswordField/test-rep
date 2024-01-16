@@ -10,6 +10,9 @@ I am not a very smart developer.<br> Would you trust a dev who puts a password i
 #### Student
 
 _I am purely learning new stuff here._ <br>
-You will **not** find anything important here.
+You will **not** find anything important here.<br>
+I am pretty decent at HTML and CSS but not master at it.
 
+![Hackerman][hack]
 
+[hack]: testfolder/hackerman.gif
