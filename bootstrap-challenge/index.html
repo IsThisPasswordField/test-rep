@@ -4,10 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Get Ready</title>
 </head>
 <body>
-    
+    <!-- Header with the logo-->
+    <header class="container mt-5 border">
+    <img src="img/logo.png" id="logo">
+    </header>
+
+    <!-- Simple nav bar-->
+    <nav>
+        <ul class="nav justify-content-center m-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">POTATOES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+    </nav>
+
+    <section class="container w-75">
+        <div class="row">
+            <div class="col-sm">
+    <!-- Start of carousel-->
+    <div id="potato" class="carousel slide border" data-bs-ride="carousel">
+
+    <!-- Indicator -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#potato" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#potato" data-bs-slide-to="1"></button>
+    </div>
+  
+    <!-- Carousel Info-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/potato1.jpg" height="400px" alt="Potato1" class="d-block w-100">
+        <div class="carousel-caption text-bg-dark">
+            <h3>NEW SUPER POTATOES</h3>
+            <p>They taste pretty damn good.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/potato2.jpg" height="400px" alt="Potato2" class="d-block w-100">
+        <div class="carousel-caption text-bg-dark">
+            <h3>HOT SPICY POTATOES</h3>
+            <p>Now with 10% sale till Monday!</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#potato" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#potato" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+            </div>
+            <div class="col-sm text-warning">
+               <h1 class="display-1">Eat potatoes.</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut odio nam quaerat perferendis consequatur odit similique cum culpa! Minus praesentium qui ea? Aliquam perferendis vero eaque porro voluptatibus dignissimos iste cupiditate, tenetur iusto, debitis ab impedit eligendi exercitationem saepe perspiciatis illo magnam. Ipsam nostrum reiciendis, numquam quas dolorum mollitia.</p>
+               <p>In above paragraph we explained why potatoes are the best but you have to buy our translator services for $29.95/mo.</p>
+            </div>
+    <div class="container m-4" data-bs-theme="dark">
+        <h2 class="display-2">Introducing our <strong id="pro">professionals</strong></h2>
+        <div class="row g-4 m-3">
+            <div class="col">
+        <div class="card p-3" style="width:350px">
+        <img class="card-img-top" src="img/card3.jpg" alt="Space Man">
+        <div class="card-body">
+          <h4 class="card-title">Astronaut</h4>
+          <p class="card-text">We are not sure why we hired this person. After all, they are currently in space.</p>
+          <a href="#" class="btn btn-primary">HIRE THEM ANYWAY</a>
+            </div>
+             </div>
+      </div>
+
+      <div class="col">
+      <div class="card p-3" style="width:350px">
+        <img class="card-img-top" src="img/card1.jpg" alt="PC Worker">
+        <div class="card-body">
+          <h4 class="card-title">Solitaire AI</h4>
+          <p class="card-text">Worked on potatoes and their ability to run DOOM since 1998. Loses in Solitaire every single time.</p>
+          <a href="#" class="btn btn-primary">HIRE THEM</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card p-3" style="width:350px">
+          <img class="card-img-top" src="img/card2.jpg" alt="PotatoMan">
+          <div class="card-body">
+            <h4 class="card-title">Mr. Potato Head</h4>
+            <p class="card-text">CEO of the company after the previous CEO vanished during Potato Apocalypse in 2006.</p>
+            <a href="#" class="btn btn-primary">HIRE THEM</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="container" data-bs-theme="dark">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2024 PotatoShop Corporation</span>
+          </div>
+        </footer>
+      </div>
+      
 </body>
 </html>

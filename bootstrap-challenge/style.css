@@ -1,0 +1,58 @@
+body
+{
+    background-color:#161616;
+}
+
+.btn
+{
+    background-color:#a57f0a;
+    color:black;
+    border-color:black;
+}
+
+.btn:hover
+{
+    background-color:#fbff00;
+    color:black;
+    border-color:black;
+}
+
+.display-2
+{
+    color:#a57f0a;
+    text-align:center;
+}
+
+.nav-link
+{
+    color:white;
+    font-size:30px;
+}
+
+.nav-link:hover
+{
+    color:#a57f0a;
+    text-decoration: none;
+} 
+
+#logo
+{
+    width:100%;
+}
+
+.card:hover
+{
+    background-color:rgb(27, 23, 1);
+}
+
+@keyframes coloring {
+    0% { color: #a57f0a; }
+    50% { color: white; }
+    100% { color: #a57f0a; }
+  }
+
+#pro {
+    animation-name: coloring;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
