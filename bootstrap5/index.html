@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSS bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- my own .css to fix some conflicts -->
+  <link href="style.css" rel="stylesheet">
   <!-- JS bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -17,11 +19,10 @@
     <h1 class="display-1">BOOTSTRAP 5 TESTS</h1>
     <p>The following page is for <mark>test purposes only</mark>.</p>
 
-
     <blockquote class="blockquote">
-      <p>I know exactly what I am doing.
-      </p>
+      <p>I know exactly what I am doing.</p>
       <footer class="blockquote-footer">Not the person who made this page</footer>
+    </blockquote>
   </div>
 
   <div class="container-fluid">
@@ -45,6 +46,31 @@
       <div class="col bg-dark text-white">by mysterious</div>
       <div class="col"><abbr title="Made you look.">Bootstrap.</abbr></div>
     </div>
+  </div>
+
+  <div class="container-fluid mt-2">
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Drink</th>
+          <th>Is it good?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coffee</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Water</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Energy Drink</td>
+          <td>❌❌❌</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </body>
 
